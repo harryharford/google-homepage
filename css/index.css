@@ -4,7 +4,7 @@
 
 #logo-positioning {
   height:233px;
-  margin-top:89px
+  margin-top:69px
 }
 /* @media only screen and (max-height:768px) */
 .search-bar {
@@ -16,16 +16,10 @@
   border: 1px solid #dfe1e5;
   border-radius: 24px;
 }
-svg {
-  display: block;
-  height: 100%;
-  width: 100%;
-}
 
-.search-icon-space {
-  margin: auto;
-  font-size: small;
-  font-family: arial,
+.search-bar:hover {
+  box-shadow: 0 2px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
 }
 
 div {
@@ -36,29 +30,189 @@ div {
   color: #9AA0A6;
 }
 
+.center-buttons {
+  display: block;
+  padding: 18px;
+}
+
+.submit-button:hover {
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.search-icon-container {
+  height: 20px;
+  width: 20px;
+  padding: 14px;
+  padding-right: 8px;
+  float: inline-start;
+}
+
+.search-icon {
+  display: inline-block;
+  height: 17px;
+  width: 17px;
+  padding: 3px;
+  opacity: 75%;
+}
+
+/* .microphone-icon {
+  display: inline-end;
+  height:26px;
+  width: 26px;
+  padding: 3px;
+  padding-right: 15px;
+  cursor: pointer;
+  background-image: url("../microphone.jpg");
+  background-size: 26px;
+} */
+
+.microphone-icon {
+  background-image: url("../microphone.jpg");
+  background-size: 26px;
+  height: 26px;
+  width: 26px;
+  margin-right: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+  display: inline-end;
+}
+
+nav {
+  display: block;
+}
+
+.top-nav {
+  padding-top: 20px;
+}
+
+.about-store {
+  float: left;
+}
+
+.top-left {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  padding-left: 20px;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  background: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top {
+  color: rgba(0,0,0,.54);
+  padding-left: 30px;
+  font-size: 15px;
+  line-height: 35px;
+  border-top: 1px solid #e4e4e4;
+
+}
+
+.footer-bot {
+  font-size: 13px;
+  line-height: 40px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float:right;
+  padding-right: 27px;
+}
+
+
+.top-left-links {
+  padding-right: 17px;
+  text-decoration: none;
+  color: #000000;
+  opacity: 0.75;
+}
+
+.top-left-links:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  padding-left: 30px;
+  color: #5F6368;
+  text-decoration: none;
+}
+
+.footer-links:hover {
+  text-decoration: underline;
+}
+
+.top-right-links {
+  padding-right: 17px;
+  text-decoration: none;
+  color: rgba(0,0,0,87);
+  opacity: 0.75;
+}
+
+.top-right-links:hover {
+  text-decoration: underline;
+}
+
+.top-right {
+  float: right;
+  font-family: Arial, sans-serif;
+  padding-right: 27px;
+  padding-left: 15px;
+  font-size: 13px;
+}
+
+.app-selector {
+  height: 23px;
+  width: 23px;
+  background-image: url("../app-select-image.jpg");
+  background-position: -138px -45px;
+  margin-top: 15px;
+  margin-right: 20px;
+  opacity: .55;
+}
+
+.account-button {
+  background-image: url("../account-page-logo.jpg");
+  background-size: 26px;
+  height: 30px;
+  width: 30px;
+}
+
+.submit-button {
+  margin: 11px 4px;
+  padding: 0 16px;
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background-color: #757575;
+  color: #5F6368;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  height: 36px;
+  text-align: center;
+  cursor: pointer;
+}
+
 .search-field {
   background-color: transparent;
   border: none;
-  border-top-color: initial;
-  border-top-style: none;
-  border-top-width: initial;
-  border-right-color: initial;
-  border-right-style: none;
-  border-right-width: initial;
-  border-bottom-color: initial;
-  border-bottom-style: none;
-  border-bottom-width: initial;
-  border-left-color: initial;
-  border-left-style: none;
-  border-left-width: initial;
-  border-image-source: initial;
-  border-image-slice: initial;
-  border-image-width: initial;
-  border-image-outset: initial;
-  border-image-outset: initial;
-  border-image-repeat: initial;
   margin: 0;
-  /* margin-top: -37px; */
+  margin-left: 5px;
+  margin-right: 5px;
   padding: 0;
   color: rgba(0,0,0,87);
   word-wrap: break-word;
